@@ -102,7 +102,7 @@ npm run dev
 
 ---
 
-## Notes on Security
+## Notes
 
 - The API key is stored in a `.env` file and never committed to GitHub
 - `.env` is included in `.gitignore` to keep it private
