@@ -1,0 +1,29 @@
+/* Style for the whole page */
+body {
+    font-family: sans-serif;
+    padding: 350px;
+    background-color: #00ffff;
+    text-align: center;
+}
+
+/* Style for the buttons */
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+/* Style for the output area */
+#output {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Style for cat images */
+img {
+    width: 200px;
+    border-radius: 8px;
+}
