@@ -75,7 +75,7 @@ git push -u origin main
 
 ##  How to Use This Project
 
-### To run it on your own computer:
+### TO run it on your own computer:
 
 1. Clone the repo:
 ```bash
