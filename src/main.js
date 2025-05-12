@@ -1,10 +1,10 @@
 const API_KEY = import.meta.env.VITE_CAT_API_KEY;
-
+// Grab all the main elements
 const output = document.getElementById('output');
 const breedsBtn = document.getElementById('breeds-btn');
 const randomBtn = document.getElementById('random-btn');
 
-// When "Show Cat Breeds" is clicked
+// Show 10 cat breeds
 breedsBtn.addEventListener('click', async () => {
   output.innerHTML = 'Loading cat breeds...';
   const res = await fetch('https://api.thecatapi.com/v1/breeds', {
